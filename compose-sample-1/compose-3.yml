@@ -10,7 +10,7 @@ services:
       - NODE_ENV=production
       - MYSQL_HOST=mysql-primary
       - MYSQL_PASSWORD=mypass
-      - MYSQL_DATABASE=ghost
+      - MYSQL_DATABASE =ghost
     volumes:
       - ./config.js:/var/lib/ghost/config.js
     depends_on:
